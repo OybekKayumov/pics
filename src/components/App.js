@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
+import Validator from "../exercises/Validator";
 
 const App = () => {
   return (
@@ -7,6 +8,8 @@ const App = () => {
       <SearchBar>
 
       </SearchBar>  
+
+      <Validator></Validator>
     </div>
   )
 };
