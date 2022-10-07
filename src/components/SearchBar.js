@@ -3,9 +3,16 @@ import React from "react";
 class SearchBar extends React.Component {
   state = { term: 'enter search item...'}
 
+  onFormSubmit(e) {
+    // no refresh all pages when press Enter after input data
+    e.preventDefault();
+
+    console.log(this.state.term);
+  }
+
   render () {
     return (
-      <div className="ui segment">
+      <div onSubmit={this.onFormSubmit} className="ui segment">
         <form className="ui form">
           <div className="field">
             <label htmlFor="">Image Search</label>
