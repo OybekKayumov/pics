@@ -1,10 +1,10 @@
 # Stuff to figure out in this React App
 
- #### How to get feedback from the user
+ ####  - How to get feedback from the user
  
- #### How to fetch data from some outside API or server
+ ####  - How to fetch data from some outside API or server
  
- #### How to show lists of records
+ ####  - How to show lists of records
 
 ## Installation instructions:
 
