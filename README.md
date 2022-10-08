@@ -1,4 +1,4 @@
-# Stuff to figure out in this React App
+# Covered topics in this React App:
 
  ####  - How to get feedback from the user
  
