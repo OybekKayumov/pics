@@ -1,28 +1,17 @@
-# Getting Started with Create React App
+# Stuff to figure out in this React App
 
- [Create React App](https://github.com/).
+ ### How to get feedback from the user
+ 
+ ### Hoe to fetch data from some outside API or server
+ 
+ ### How to show lists of records
+
+## Installation instructions:
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-
-### Deployment
-
+### `npm install`
