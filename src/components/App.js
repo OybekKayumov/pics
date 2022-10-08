@@ -1,8 +1,8 @@
 import React from "react";
-import axios from "axios";
 import unspalsh from "../api/unspalsh";
+import ImageList from "./ImageList";
 import SearchBar from "./SearchBar";
-import Validator from "../exercises/Validator";
+
 
 class App extends React.Component {
   state = { images: [] };
@@ -23,6 +23,7 @@ class App extends React.Component {
       <div className="ui container" style={{ marginTop: '10px'}}>
         <SearchBar onSubmit={this.onSearchSubmit}></SearchBar>
         Found: {this.state.images.length} images
+        <ImageList images={this.state.images}/>
       </div>
     )
   }
@@ -30,7 +31,10 @@ class App extends React.Component {
 
 export default App;
 
+// eslint-disable-next-line
 {/* <Validator></Validator> */}
+// import axios from "axios";
+// import Validator from "../exercises/Validator";
 
 // .then((response) => {
     //   console.log('response: ', response);
