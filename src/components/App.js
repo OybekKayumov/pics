@@ -5,17 +5,20 @@ import Validator from "../exercises/Validator";
 
 // const App = () => {
 class App extends React.Component {
-  onSearchSubmit(term) {
+  async onSearchSubmit(term) {
     console.log('App term: ', term);
-    axios.get('https://api.unsplash.com/search/photos', {
+    const response = await axios.get('https://api.unsplash.com/search/photos', {
       params: { query: term },
       headers: {
         Authorization: 'Client-ID Access_Key'
       }
-    }).then((response) => {
-      console.log('response: ', response);
-      console.log('response: ', response.data.results);
     })
+    // .then((response) => {
+    //   console.log('response: ', response);
+    //   console.log('response: ', response.data.results);
+    // })
+
+    console.log(response.data.results);
   } 
 
   render () {  
