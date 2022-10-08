@@ -2,8 +2,6 @@ import React from "react";
 import unspalsh from "../api/unspalsh";
 import ImageList from "./ImageList";
 import SearchBar from "./SearchBar";
-import ListBuilding from "../exercises/ListBuilding";
-
 
 class App extends React.Component {
   state = { images: [] };
@@ -26,7 +24,7 @@ class App extends React.Component {
         Found: {this.state.images.length} images
         <ImageList images={this.state.images}/>
 
-        <ListBuilding />
+        
       </div>
     )
   }
@@ -36,8 +34,12 @@ export default App;
 
 // eslint-disable-next-line
 {/* <Validator></Validator> */}
+// eslint-disable-next-line
+{/* <ListBuilding /> */}
+
 // import axios from "axios";
 // import Validator from "../exercises/Validator";
+// import ListBuilding from "../exercises/ListBuilding";
 
 // .then((response) => {
     //   console.log('response: ', response);
