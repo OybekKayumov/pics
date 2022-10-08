@@ -6,12 +6,11 @@ const App = () => {
   return (
     <div className="ui container" style={{ marginTop: '10px'}}>
       <SearchBar>
-
-      </SearchBar>  
-
-      <Validator></Validator>
+      </SearchBar>
     </div>
   )
 };
 
 export default App;
+
+{/* <Validator></Validator> */}
