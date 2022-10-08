@@ -7,7 +7,9 @@ class SearchBar extends React.Component {
     // no refresh all  pages when press Enter after input data
     e.preventDefault();
 
-    console.log(this.state.term); //! error
+    // console.log(this.state.term); //! error
+    this.props.onSubmit(this.state.term)
+
   }
 
   render () {
